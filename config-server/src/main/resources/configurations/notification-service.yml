@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: notification-service
+
+mailgun:
+  username: api
+  key:
+  sandbox-uri:
+  sender-email:
+  baseUrl: https://api.mailgun.net
+
+server:
+  port: 8092

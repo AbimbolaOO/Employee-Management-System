@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: auth-service
+  datasource:
+    url: jdbc:postgresql://localhost:5452/postgres
+    driverClassName: org.postgresql.Driver
+    username: ems-auth
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+springdoc:
+  api-docs:
+    path: /api/auth-service/v3/api-docs
+  swagger-ui:
+    path: /api/auth-service/swagger-ui
+
+server:
+  port: 8091

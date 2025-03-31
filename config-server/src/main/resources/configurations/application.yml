@@ -1,0 +1,25 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+spring:
+  cloud:
+    config:
+      override-system-properties: false
+  security:
+    user:
+      name: unknownUnknown
+      password: very-strong-password
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+
+
+jwt:
+  refreshTokenSecret: YwhN/Oo6+w7hY7OzlUMsJHlDU92nLkIHKXOAdYfqEZ6R1u6gp1ZNMztUjNHtI7v4SHfvwMzk/JCKnVvd65C0w==
+  refreshTokenTime: 600
+  accessTokenSecret: YwhN/Oo6+w7hY7OzlUcCsJHlDU92nLkIHKXOAdYfjEZ6R1u6gp0ZNMztUjNHtI7v4SHfvwMzk/JCKnVvd65C0w==
+  accessTokenTime: 60

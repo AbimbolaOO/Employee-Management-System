@@ -110,3 +110,8 @@ After creating the admin account, use the Swagger UI or direct API calls to mana
 ## Future Improvements
 
 - Implement rate limiting at the API Gateway.
+
+## Pictures of swagger docs
+
+![Employee Service](employee-service.png)
+![Auth Service](auth-service.png)
